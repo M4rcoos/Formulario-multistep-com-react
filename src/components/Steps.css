@@ -36,3 +36,37 @@
 .active > svg {
     fill: #7076f4;
 }
+
+@media  (max-width:500px) {
+    .steps{
+        width: 100%;
+    }
+    .step{
+        width: 50px;
+    }
+    .steps::after{
+        content: '';
+        width: 180px;
+        border-bottom: 1px solid #ccc;
+        position: absolute;
+        top:20px;
+    }
+}
+@media  (max-width:300px) {
+    .steps{
+        width: 100%;
+    }
+    .step{
+        width: 10px;
+    }
+    .steps::after{
+        content: '';
+        width: 10px;
+        border-bottom: 1px solid #ccc;
+        position: absolute;
+        top:20px;
+    }
+    .steps > .step > p {
+        font-size: 0.6rem;
+    }
+}

@@ -39,3 +39,9 @@
     font-size: .7rem;
     margin-top: 0.4remx;
 }
+@media  (max-width:300px) {
+    .form-control.score-container{
+        display: flex;
+       flex-wrap: wrap;
+    }
+}

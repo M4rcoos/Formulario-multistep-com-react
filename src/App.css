@@ -77,3 +77,30 @@ textarea {
 .actions button:hover {
     background-color: #cfcfcf;
 }
+@media  (max-width:300px) {
+    .form-container{
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 1.5rem 0.7rem;
+        box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    }
+}
+@media  (max-width:300px) {
+   .actions{
+    display: flex;
+    gap:0.5rem;
+   }
+   .actions button {
+    font-size: .9rem;
+    padding: .5rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+}
+}
